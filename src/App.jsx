@@ -1,11 +1,10 @@
-import Square from './Components/Square';
-import './App.css';
+import Board from './Components/Board';
+import './Components/style.scss';
 
 function App() {
   return (
-    <div>
-      <h1>hello</h1>
-      <Square />
+    <div className="app">
+      <Board />
     </div>
   );
 }
